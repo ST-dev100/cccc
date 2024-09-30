@@ -8,3 +8,6 @@ app.get('/',(req,res)=>{
 app.listen(3000,()=>{
     console.log("hello")
 })
+
+// Export the serverless function
+module.exports = app;
